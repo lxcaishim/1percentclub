@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The 1% Club</title>
+  <meta name="description" content="The 1% Club — reserved for the top 1%. Elite conviction. Spotlight energy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Permanent+Marker&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="spotlight spotlight-top" aria-hidden="true"></div>
+  <div class="spotlight spotlight-floor" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#">the 1% <span class="brand-accent">CLUB</span></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <nav class="nav-links" id="nav-links">
+      <a href="#about">The Standard</a>
+      <a href="#cards">The Cards</a>
+      <a href="#how-to-buy">How To Buy</a>
+      <a href="#chart">Live Chart</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img class="hero-image" src="assets/hero.png" alt="" />
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-beam" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <p class="hero-eyebrow">The One Percent Reserve</p>
+        <p class="hero-subline">For the top one percent</p>
+        <h1 class="hero-title">
+          <span class="title-the">the</span>
+          <span class="title-core">1%</span>
+          <span class="title-club">CLUB</span>
+        </h1>
+        <div class="hero-actions">
+          <a class="btn btn-icon" href="https://x.com" target="_blank" rel="noreferrer" aria-label="Follow on X">
+            <svg class="x-logo-svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+
+          <div class="ca-block" role="group" aria-label="Contract address">
+            <span id="ca-text">CA: TBD</span>
+            <button id="copy-ca-btn" type="button">Copy</button>
+          </div>
+
+          <a class="btn btn-buy" id="buy-btn" href="#" target="_blank" rel="noreferrer">
+            <span class="buy-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" focusable="false">
+                <path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.5L21 7H7.2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle cx="10" cy="19" r="1.6" fill="currentColor"></circle>
+                <circle cx="17" cy="19" r="1.6" fill="currentColor"></circle>
+              </svg>
+            </span>
+            Buy Now
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Scrolling tagline">
+      <div class="ticker-track">
+        <div class="ticker-group" aria-hidden="true">
+          <span>TOP 1% ONLY</span><i></i><span>THE 1% CLUB</span><i></i><span>TOP 1% ONLY</span><i></i><span>THE 1% CLUB</span><i></i><span>TOP 1% ONLY</span><i></i><span>THE 1% CLUB</span><i></i>
+        </div>
+        <div class="ticker-group" aria-hidden="true">
+          <span>TOP 1% ONLY</span><i></i><span>THE 1% CLUB</span><i></i><span>TOP 1% ONLY</span><i></i><span>THE 1% CLUB</span><i></i><span>TOP 1% ONLY</span><i></i><span>THE 1% CLUB</span><i></i>
+        </div>
+        <div class="ticker-group" aria-hidden="true">
+          <span>TOP 1% ONLY</span><i></i><span>THE 1% CLUB</span><i></i><span>TOP 1% ONLY</span><i></i><span>THE 1% CLUB</span><i></i><span>TOP 1% ONLY</span><i></i><span>THE 1% CLUB</span><i></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <h2>The Standard</h2>
+      <p class="section-lead">Not everyone gets a seat. The 1% Club is built on exclusivity, discipline, and quiet conviction — the bar stays at the top.</p>
+
+      <div class="stat-grid">
+        <article class="card stat-card">
+          <span class="stat-value">1%</span>
+          <span class="stat-label">The bar</span>
+        </article>
+        <article class="card stat-card">
+          <span class="stat-value">∞</span>
+          <span class="stat-label">Conviction</span>
+        </article>
+        <article class="card stat-card">
+          <span class="stat-value">0</span>
+          <span class="stat-label">Excuses</span>
+        </article>
+      </div>
+
+      <div class="standard-grid">
+        <article class="card standard-card">
+          <h3>Exclusivity</h3>
+          <p>Reserved for those who move different. No noise, no crowd — just the top tier.</p>
+        </article>
+        <article class="card standard-card">
+          <h3>Discipline</h3>
+          <p>Conviction over hype. Hold the line when everyone else folds.</p>
+        </article>
+        <article class="card standard-card">
+          <h3>Presence</h3>
+          <p>Spotlight energy without saying a word. Built to look expensive.</p>
+        </article>
+        <article class="card standard-card">
+          <h3>Legacy</h3>
+          <p>Long-game mindset. The 1% don't chase — they set the pace.</p>
+        </article>
+      </div>
+
+      <div class="manifesto card">
+        <p class="manifesto-line">You don't ask for access.</p>
+        <p class="manifesto-line manifesto-accent">You earn it.</p>
+        <p class="manifesto-line">Welcome to the 1% Club.</p>
+      </div>
+    </section>
+
+    <section class="section cards-section" id="cards">
+      <h2>The Cards</h2>
+      <p class="section-lead">Member-tier plastics. Each card represents a level of the club — black, gold, platinum, and beyond.</p>
+
+      <div class="credit-showcase">
+        <article class="credit-card card-obsidian" aria-label="1% Club Obsidian card">
+          <div class="card-shine"></div>
+          <div class="card-top">
+            <span class="card-brand">the 1% CLUB</span>
+            <span class="card-chip" aria-hidden="true"></span>
+          </div>
+          <div class="card-number">•••• •••• •••• 0001</div>
+          <div class="card-bottom">
+            <span class="card-holder">MEMBER</span>
+            <span class="card-tier">OBSIDIAN</span>
+          </div>
+        </article>
+
+        <article class="credit-card card-gold" aria-label="1% Club Gold card">
+          <div class="card-shine"></div>
+          <div class="card-top">
+            <span class="card-brand">the 1% CLUB</span>
+            <span class="card-chip" aria-hidden="true"></span>
+          </div>
+          <div class="card-number">•••• •••• •••• 0001</div>
+          <div class="card-bottom">
+            <span class="card-holder">MEMBER</span>
+            <span class="card-tier">GOLD</span>
+          </div>
+        </article>
+
+        <article class="credit-card card-platinum" aria-label="1% Club Platinum card">
+          <div class="card-shine"></div>
+          <div class="card-top">
+            <span class="card-brand">the 1% CLUB</span>
+            <span class="card-chip" aria-hidden="true"></span>
+          </div>
+          <div class="card-number">•••• •••• •••• 0001</div>
+          <div class="card-bottom">
+            <span class="card-holder">MEMBER</span>
+            <span class="card-tier">PLATINUM</span>
+          </div>
+        </article>
+
+        <article class="credit-card card-black" aria-label="1% Club Black card">
+          <div class="card-shine"></div>
+          <div class="card-top">
+            <span class="card-brand">the 1% CLUB</span>
+            <span class="card-chip" aria-hidden="true"></span>
+          </div>
+          <div class="card-number">•••• •••• •••• 0001</div>
+          <div class="card-bottom">
+            <span class="card-holder">MEMBER</span>
+            <span class="card-tier">BLACK</span>
+          </div>
+        </article>
+
+        <article class="credit-card card-silver" aria-label="1% Club Silver card">
+          <div class="card-shine"></div>
+          <div class="card-top">
+            <span class="card-brand">the 1% CLUB</span>
+            <span class="card-chip" aria-hidden="true"></span>
+          </div>
+          <div class="card-number">•••• •••• •••• 0001</div>
+          <div class="card-bottom">
+            <span class="card-holder">MEMBER</span>
+            <span class="card-tier">SILVER</span>
+          </div>
+        </article>
+
+        <article class="credit-card card-elite" aria-label="1% Club Elite card">
+          <div class="card-shine"></div>
+          <div class="card-top">
+            <span class="card-brand">the 1% CLUB</span>
+            <span class="card-chip" aria-hidden="true"></span>
+          </div>
+          <div class="card-number">•••• •••• •••• 0001</div>
+          <div class="card-bottom">
+            <span class="card-holder">MEMBER</span>
+            <span class="card-tier">ELITE</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section how-to-buy" id="how-to-buy">
+      <h2>How To Buy</h2>
+      <p class="section-lead">Four steps to join. Phantom, SOL, pump.fun, swap.</p>
+      <div class="steps">
+        <article class="card step-card">
+          <span class="step-label">Step 01</span>
+          <h3>Create a Phantom Wallet</h3>
+          <p>Download Phantom and set up your wallet securely.</p>
+        </article>
+        <article class="card step-card">
+          <span class="step-label">Step 02</span>
+          <h3>Buy SOL</h3>
+          <p>Purchase SOL on your exchange and send it to Phantom.</p>
+        </article>
+        <article class="card step-card">
+          <span class="step-label">Step 03</span>
+          <h3>Open pump.fun</h3>
+          <p>Go to pump.fun and search for the official 1% Club listing.</p>
+        </article>
+        <article class="card step-card">
+          <span class="step-label">Step 04</span>
+          <h3>Swap SOL for $1%</h3>
+          <p>Confirm the pair, swap your SOL, and hold with conviction.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section chart" id="chart">
+      <h2>Live Chart</h2>
+      <div class="card chart-card">
+        <div id="dexscreener-widget"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-logos" aria-label="Social links">
+      <a class="footer-btn" href="https://x.com" target="_blank" rel="noreferrer" aria-label="X profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+      <a class="footer-btn pump-logo" href="https://pump.fun" target="_blank" rel="noreferrer" aria-label="pump.fun">
+        <img src="https://pump.fun/logo.png" alt="pump.fun" />
+      </a>
+    </div>
+    <p class="footer-copy">THE 1% CLUB © <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
