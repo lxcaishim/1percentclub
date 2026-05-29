@@ -149,14 +149,14 @@ main { position: relative; z-index: 2; }
   overflow: hidden;
 }
 
-.hero-image {
+.hero-video {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 42%;
-  filter: contrast(1.08) brightness(0.78) saturate(0.9);
+  object-position: center center;
+  filter: contrast(1.08) brightness(0.72) saturate(0.92);
 }
 
 .hero-overlay {
@@ -859,7 +859,7 @@ h2 {
 
 @media (max-width: 760px) {
   .hero-inner { top: 38%; }
-  .hero-image { object-position: center 38%; }
+  .hero-video { object-position: center center; }
   .menu-toggle { display: inline-flex; }
   .nav-links {
     position: absolute;
